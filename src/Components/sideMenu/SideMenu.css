@@ -1,0 +1,79 @@
+#sideMenuContainer{
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: var(--azul-gotec);
+    width: 200px;
+    height: 100vh;
+    justify-content: flex-start;
+    box-shadow: 5px 0px 10px #0006;
+}
+
+.settingsArt {
+    padding-left: 30px;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 16px;
+    color: var( --blanco-gotec);
+}
+
+.optionName{
+    cursor: pointer;
+    justify-content: space-between  !important;
+    padding-right: 15px;
+    transition: all 0.1s linear;
+}
+
+.optionName:hover{
+    font-size: 18px;
+    padding-right: 8px;
+    color: var(--verde-gotec);
+
+}
+
+.optionName:hover h4{
+    color: var(--verde-gotec);
+}
+
+.settingsArt h4 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    color: var( --blanco-gotec);
+}
+
+.settingsArt .fa-angle-right {
+    margin-right: 5px;
+    transition: all 0.1s linear;
+}
+
+.settingsArt .fa-angle-down {
+    margin-right: 2px;
+    transition: all 0.2s linear;
+}
+
+.profile-img-section {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 15px 0 3px 0;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+.profile-img-container {
+    width: 80%;
+    height: 80%;
+    background-color: var(--blanco-gotec);
+    border-radius: 50%;
+    border: 1px solid var(--gris-intermedio-gotec);
+    overflow: hidden;
+    box-shadow: var(--verde-oscuro-gotec) 0px 0px 8px;
+    opacity: 0.95;
+}
+
+.profile-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,14 @@
+#header{
+    height: 60px;
+    background-color: var(--verde-oscuro-gotec);
+    justify-content: flex-start;
+    padding-left: 20px;
+    color: var(--blanco-gotec);
+    font-size: 18px;
+}
+
+#header h1{
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px #0008;
+}
